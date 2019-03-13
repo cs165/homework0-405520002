@@ -4,22 +4,87 @@
     <meta charset="utf-8">
     <title>HW0: Welcome to 4102165</title>
     <link rel="stylesheet" href="style.css"/>
-  </head>
+    <style>
+
+    body{
+            background-color: black;
+            background-size:cover;
+            background-repeat: no-repeat;
+            margin:0;
+            
+            
+            }
+    html{
+          height:100%;
+
+    }
+
+
+    .box{ 
+           background-color: gray;
+           width :100%;
+           height:100px;
+           margin-top:1px;
+           padding: 10px;
+    
+    }
+
+      .word{
+        margin-left: 10px;
+      }
+
+      p{
+        margin-left: 30px;
+      }
+
+      .picture{
+        width:600px;
+        height:600px;
+        animation-name: change;    
+        animation-duration: 4s;    
+        animation-delay: 2s;    
+        animation-iteration-count: infinite; 
+
+
+      }
+
+      .picture:hover{
+
+      }
+
+      @keyframes change{
+     from{background-image: url("http://chittagongit.com//images/icon-boys/icon-boys-15.jpg")}
+     to{background-image: url('https://img.chinatimes.com/newsphoto/2014-02-12/656/20140212004944.jpg')}
+      }
+
+
+      @keyframes move{
+     from{left: 0%}
+     to{background-image: url('https://img.chinatimes.com/newsphoto/2014-02-12/656/20140212004944.jpg')}
+      }
+    
+    
+    </style>
+  </head> monospace;
   <body>
-    <h1>HW0: Welcome to 4102165</h1>
-
-    <h2>What is your name?</h2>
+  <font color='white' size='5'>
+    <div class="box">
+     <h1 align='center'><font size='20'><span style="font-family:fantasy;">HW0: Welcome to 4102165</span></font></h1>
+     </div>
+        <h2 class='word'>What is your name?</h2>
     <p>
-      <!-- TODO(you): Enter your answer here -->
+        <span style="font-family:fantasy;">Wade</span>
+    </p>
+  
+
+    <h2 class='word'>What is a fun fact about yourself?</h2>
+    <p>
+        <span style="font-family:fantasy;">I love watching youtube!!</span>  
     </p>
 
-    <h2>What is a fun fact about yourself?</h2>
-    <p>
-      <!-- TODO(you): Enter your answer here -->
-    </p>
-
-    <h2>What do you look like?</h2>
-    <!-- TODO(you): Add a picture of yourself or of something that represents yourself. -->
-
+    <h2 class='word'>What do you look like?</h2>
+    <div class='picture'>
+    </div>
+  </font>
   </body>
 </html>
